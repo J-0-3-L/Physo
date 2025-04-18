@@ -1,9 +1,23 @@
-import { Text, View } from "react-native";
+import { Text, View, StyleSheet } from "react-native";
 
 export default function HomeScreen() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Pantalla Main</Text>
+    <View style={styles.container}>
+      <Text style={styles.text}>Fisica Clasica</Text>
     </View>
   )
 }
+
+const styles = StyleSheet.create({
+
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#7e22ce'
+  },
+  text: {
+    color: 'white'
+  }
+
+})
