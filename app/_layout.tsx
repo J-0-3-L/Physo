@@ -9,6 +9,10 @@ export default function RootLayout() {
           name="index"
           options={{ headerShown: false }}
         />
+        <Stack.Screen
+          name="info"
+          options={{ headerShown: false }}
+        />
       </Stack>
       <StatusBar style='auto' />
     </>
