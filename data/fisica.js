@@ -2,62 +2,62 @@ export const fisica = [
   {
     "id": 1,
     "title": "Conceptos Fundamentales",
-    "description": "Base para todo en física: unidades, vectores, notación científica y análisis dimensional."
+    "description": "Base para todo en fisica: unidades, vectores, notacion cientifica y analisis dimensional."
   },
   {
     "id": 2,
-    "title": "Cinemática",
-    "description": "Estudia el movimiento sin importar sus causas: MRU, MRUA, caída libre, y trayectorias."
+    "title": "Cinematica",
+    "description": "Estudia el movimiento sin importar sus causas: MRU, MRUA, caida libre, y trayectorias."
   },
   {
     "id": 3,
-    "title": "Dinámica",
+    "title": "Dinamica",
     "description": "Analiza las fuerzas que producen el movimiento, aplicando las leyes de Newton."
   },
   {
     "id": 4,
-    "title": "Trabajo y Energía",
-    "description": "Relación entre fuerza, desplazamiento y energía; incluye conservación de energía."
+    "title": "Trabajo y Energia",
+    "description": "Relacion entre fuerza, desplazamiento y energia; incluye conservacion de energia."
   },
   {
     "id": 5,
     "title": "Cantidad de Movimiento",
-    "description": "Estudia el impulso, momento lineal y choques, con conservación del momento."
+    "description": "Estudia el impulso, momento lineal y choques, con conservacion del momento."
   },
   {
     "id": 6,
-    "title": "Estática y Equilibrio",
+    "title": "Estatica y Equilibrio",
     "description": "Analiza cuerpos en reposo, torques, fuerzas y condiciones para el equilibrio."
   },
   {
     "id": 7,
-    "title": "Gravitación",
-    "description": "Describe la atracción entre masas, órbitas, satélites y la ley de Newton."
+    "title": "Gravitacion",
+    "description": "Describe la atraccion entre masas, orbitas, satelites y la ley de Newton."
   },
   {
     "id": 8,
-    "title": "Oscilaciones y Movimiento Armónico",
-    "description": "Estudia movimientos repetitivos como péndulos y resortes en MAS."
+    "title": "Oscilaciones y Movimiento Armonico",
+    "description": "Estudia movimientos repetitivos como pendulos y resortes en MAS."
   },
   {
     "id": 9,
     "title": "Fluidos",
-    "description": "Comportamiento de líquidos y gases; incluye presión, flotación y flujo."
+    "description": "Comportamiento de liquidos y gases; incluye presion, flotacion y flujo."
   },
   {
     "id": 10,
-    "title": "Termodinámica",
-    "description": "Trata el calor, temperatura, energía interna y las leyes que rigen su transformación."
+    "title": "Termodinamica",
+    "description": "Trata el calor, temperatura, energia interna y las leyes que rigen su transformacion."
   },
   {
     "id": 11,
     "title": "Ondas y Sonido",
-    "description": "Estudia cómo se propagan las perturbaciones, incluyendo sonido y fenómenos ondulatorios."
+    "description": "Estudia como se propagan las perturbaciones, incluyendo sonido y fenomenos ondulatorios."
   },
   {
     "id": 12,
-    "title": "Óptica Geométrica",
-    "description": "Explica cómo la luz se refleja y refracta en espejos y lentes."
+    "title": "Optica Geometrica",
+    "description": "Explica como la luz se refleja y refracta en espejos y lentes."
   }
 ]
 
