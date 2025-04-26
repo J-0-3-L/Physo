@@ -33,6 +33,7 @@ export default function FisicaSection() {
             <InfoFisica
               title={f.title}
               description={f.description}
+              img={f.img}
             />
           </View>
         ))}
@@ -58,16 +59,18 @@ const styles = StyleSheet.create({
 
   container: {
     flex: 1,
-    backgroundColor: '#673AB7'
+    backgroundColor: '#9070e2'
   },
   pagerView: {
     flex: 1
   },
   page: {
     flex: 1,
+    /*flexDirection: 'column',*/
     alignItems: 'center',
     justifyContent: 'center',
-    marginHorizontal: 100,
+    /*gap: 50,*/
+    marginHorizontal: 50,
     marginVertical: 50
     /*padding:300*/
   },
