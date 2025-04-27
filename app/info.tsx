@@ -1,6 +1,5 @@
-import { View, Text, StyleSheet, Dimensions, ScrollView, FlatList } from "react-native";
+import { View, StyleSheet, Dimensions, ScrollView, Text } from "react-native";
 import InfoFisica from '../components/InfoFisica';
-import getDots from '../utils/Dots';
 import { fisica } from '../data/fisica.js';
 
 import { useState } from "react";
@@ -16,8 +15,6 @@ export default function FisicaSection() {
     const index = Math.round(offsetX / width);
     setPageIndex(index)
   }
-
-  const dots = getDots(pageIndex, fisica.length);
 
   return (
     <View style={styles.container}>
@@ -35,22 +32,11 @@ export default function FisicaSection() {
               description={f.description}
               img={f.img}
             />
+            <Text style={{ color: 'white' }}>Slair</Text>
           </View>
         ))}
       </ScrollView>
 
-      <View style={styles.dotsContainer}>
-        {dots.map((_, i) => (
-
-          <View
-            key={i}
-            style={[
-              styles.dot,
-              { backgroundColor: i === pageIndex ? '#fff' : 'rgba(255,255,255,0.3)' },
-            ]}
-          />
-        ))}
-      </View>
     </View>
   )
 }
@@ -72,7 +58,7 @@ const styles = StyleSheet.create({
     /*gap: 50,*/
     marginHorizontal: 50,
     marginVertical: 50,
-    fontFamily: 'Onest-Regular'
+    /*fontFamily: 'Onest'*/
     /*padding:300*/
   },
   dotsContainer: {
