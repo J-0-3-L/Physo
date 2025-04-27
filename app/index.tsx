@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#075985',
-    fontFamily: 'Onest-Regular'
+    fontFamily: 'Onest'
   },
   text: {
     color: 'white', fontSize: 30, fontWeight: '700', marginTop: -70
