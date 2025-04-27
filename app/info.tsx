@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
 
   container: {
     flex: 1,
-    backgroundColor: '#9070e2'
+    backgroundColor: '#312e81'
   },
   pagerView: {
     flex: 1
@@ -71,7 +71,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     /*gap: 50,*/
     marginHorizontal: 50,
-    marginVertical: 50
+    marginVertical: 50,
+    fontFamily: 'Onest-Regular'
     /*padding:300*/
   },
   dotsContainer: {

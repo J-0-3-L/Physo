@@ -1,4 +1,4 @@
-import { Text, View, Pressable, StyleSheet } from "react-native";
+import { Text, View, Pressable, StyleSheet, Image } from "react-native";
 import { useRouter } from "expo-router";
 
 export default function HomeScreen() {
@@ -7,6 +7,7 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
+      <Image source={require('../assets/icons/0.png')} />
       <Text style={styles.text}>Fisica Clasica</Text>
       <Pressable onPress={() => router.push('info')}>
         <Text style={styles.button}>Start Explore</Text>
@@ -16,15 +17,15 @@ export default function HomeScreen() {
 }
 
 const styles = StyleSheet.create({
-
   container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#7dd3fc'
+    backgroundColor: '#075985',
+    fontFamily: 'Onest-Regular'
   },
   text: {
-    color: 'white'
+    color: 'white', fontSize: 30, fontWeight: '700', marginTop: -70
   },
   button: {
     backgroundColor: 'black',
@@ -32,7 +33,9 @@ const styles = StyleSheet.create({
     padding: 16,
     width: 320,
     textAlign: 'center',
-    borderRadius: 12
+    borderRadius: 12,
+    marginTop: 20,
+    fontSize: 15
   }
 
 })
