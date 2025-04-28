@@ -3,6 +3,7 @@ import InfoFisica from '../components/InfoFisica';
 import { fisica } from '../data/fisica.js';
 
 import { useState } from "react";
+import { Link } from "expo-router";
 
 const { width } = Dimensions.get('window');
 
@@ -32,7 +33,9 @@ export default function FisicaSection() {
               description={f.description}
               img={f.img}
             />
-            <Text style={{ color: 'white' }}>Slair</Text>
+            <Link href='/' style={{ position: 'absolute', top: 0, right: 0 }}>
+              <Text style={{ color: 'white', fontWeight: 700 }}>Omitir</Text>
+            </Link>
           </View>
         ))}
       </ScrollView>
@@ -52,29 +55,10 @@ const styles = StyleSheet.create({
   },
   page: {
     flex: 1,
-    /*flexDirection: 'column',*/
     alignItems: 'center',
     justifyContent: 'center',
-    /*gap: 50,*/
     marginHorizontal: 50,
     marginVertical: 50,
-    /*fontFamily: 'Onest'*/
-    /*padding:300*/
-  },
-  dotsContainer: {
-    position: 'absolute',
-    bottom: 20,
-    left: 0,
-    right: 0,
-    flexDirection: 'row',
-    justifyContent: 'center',
-  },
-  dot: {
-    width: 10,
-    height: 10,
-    borderRadius: 5,
-    margin: 8,
-  },
-
+  }
 
 })
