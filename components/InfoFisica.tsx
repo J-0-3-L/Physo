@@ -4,7 +4,7 @@ export default function InfoFisica(props) {
 
   const { title, description, img } = props
   return (
-    <View /*style={styles.container}*/ >
+    <View>
       <Image source={img} style={styles.img} />
       <View style={styles.textContainer}>
         <Text style={styles.title}>{title}</Text>
@@ -16,9 +16,6 @@ export default function InfoFisica(props) {
 
 const styles = StyleSheet.create({
 
-  /*container: {
-    justifyContent: 'center', alignItems: 'center', padding: 30
-  },*/
   title: {
     fontSize: 25, fontWeight: 'bold', color: 'white', textAlign: 'center', marginBottom: 15, width: 300
   },
